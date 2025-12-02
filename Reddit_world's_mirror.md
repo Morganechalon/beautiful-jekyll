@@ -2,7 +2,7 @@
 layout: page
 title: Reddit - the World's mirror?
 subtitle: Can we reconstruct the major world events through Reddit posts?
-cover-img: "assets/img/earth-spacecraft-elements.jpg"
+cover-img: "/beautiful-jekyll/assets/img/earth-spacecraft-elements.jpg"
 
 carousel_images:
   - url: assets/img/path.jpg
