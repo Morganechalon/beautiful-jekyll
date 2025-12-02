@@ -29,6 +29,12 @@ common-js:
 
   {% include nav.html %}
 
+  {% if page.cover-img %}
+    <div class="page-cover">
+      <img src="{{ page.cover-img }}" alt="{{ page.title }}" class="img-fluid w-100">
+    </div>
+  {% endif %}
+  
   {{ content }}
 
   {% include footer.html %}
